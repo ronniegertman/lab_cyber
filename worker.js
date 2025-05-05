@@ -27,7 +27,7 @@ function record() {
     while(start <= end){
       //read bytes from cache
       for (let j = 0; j < BUFFER_SIZE; j++) {
-        let val = buffer_memory[j * LINE_SIZE];
+//        let val = buffer_memory[j * LINE_SIZE];
       }
       start = performance.now();
       loop_iterations ++;
